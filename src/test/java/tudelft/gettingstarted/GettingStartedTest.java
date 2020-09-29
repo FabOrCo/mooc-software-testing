@@ -13,6 +13,7 @@ public class GettingStartedTest {
 
 //    UNCOMMENT THE CODE BELOW, AND FILL THE GAPS!
 
+//<<<<<<< HEAD
     @Test
     public void addFiveToZero() {
         int result = new GettingStarted().addFive(0);
@@ -24,4 +25,17 @@ public class GettingStartedTest {
         int result = new GettingStarted().addFive(-20);
         Assertions.assertEquals(-15,result);
     }
+//=======
+//    @Test
+//    public void addFiveToZero() {
+//        int result = new GettingStarted().addFive(???);
+//        Assertions.assertEquals(???, result);
+//    }
+//
+//    @Test
+//    public void addFiveToMinus20() {
+//        int result = new GettingStarted().addFive(???);
+//        Assertions.assertEquals(????,result);
+//    }
+//>>>>>>> ede4e1d3ffe76c6148779360cd41dc2b6831c0ba
 }
